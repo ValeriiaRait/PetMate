@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MAD_Final</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="welcome_to_pet_mate">Welcome to Pet Mate!</string>
+    <string name="add_new_friend">Add new friend</string>
+    <string name="check_on_my_friends">Check on My Friends</string>
+    <string name="check_on_my_feed">Check on My Feed</string>
+    <string name="enter_info_about_your_pet">Enter info about you pet\n</string>
+    <string name="pet_name_hint">Pet name:</string>
+    <string name="pet_species_hint">Species (e.g., Dog, Cat):</string>
+    <string name="save_pet_info">Save pet info</string>
+    <string name="go_back">Go Back</string>
+    <string name="see_videos">See Videos</string>
+    <string name="my_feed">My Feed</string>
+    <string name="pet_age">Age: %1$d</string>
+    <string name="pet_s_age">Pet\'s age</string>
+    <string name="pet_age_hint">Pet\'s age</string>
+    <string name="say_hi_to">Say hi to</string>
+    <string name="here_are_all_your_best_friends">Here are all your best friends</string>
+    <string name="pet_mate_residents">Pet Mate Residents</string>
+    <string name="pet_species">Species: %1$s</string>
+    <string name="pet_hobbies">Hobbies: %1$s</string>
+    <string name="pet_favorite_toys">Favorite Toys: %1$s</string>
+    <string name="pet_favorite_food">Favorite Food: %1$s</string>
+    <string name="pet_allergies">Allergies: %1$s</string>
+    <string name="pet_hobbies_hint">Pet hobbies: </string>
+    <string name="pet_favorite_toys_hint">Pet\'s favorite toys:</string>
+    <string name="pet_favorite_food_hint">Pet\'s favorite food:</string>
+    <string name="pet_allergies_hint">Pet\'s allergies:</string>
+</resources>

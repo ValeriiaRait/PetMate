@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Primary colors -->
+    <color name="pastel_blue">#9AC0CD</color>
+    <color name="pastel_green">#98FB98</color>
+    <color name="pastel_pink">#FFB6C1</color>
+    <color name="pastel_purple">#B19CD9</color>
+
+    <!-- Primary variant colors -->
+    <color name="pastel_blue_variant">#7AA8B6</color>
+    <color name="pastel_green_variant">#8FBC8F</color>
+    <color name="pastel_pink_variant">#FFA07A</color>
+    <color name="pastel_purple_variant">#9B30FF</color>
+
+    <!-- Text colors -->
+    <color name="text_primary">#333333</color>
+    <color name="text_secondary">#666666</color>
+
+    <!-- Background colors -->
+    <color name="background_primary">#FFFFFF</color>
+    <color name="background_secondary">#F5F5F5</color>
+
+    <!-- Status bar color -->
+    <color name="status_bar">#CCCCCC</color>
+
+    <!-- Navigation bar color -->
+    <color name="navigation_bar">#CCCCCC</color>
+
+    <color name="pastelBackground">#CFF1D7</color>
+</resources>

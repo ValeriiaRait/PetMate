@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Dynamic menu items for pets -->
+    <group android:id="@+id/group_pets" android:checkableBehavior="single"/>
+
+</menu>

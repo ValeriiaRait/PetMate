@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/pastelBackground">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/here_are_all_your_best_friends"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- LinearLayout to hold the list of pet names -->
+    <LinearLayout
+        android:id="@+id/linearLayoutPetNames"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:orientation="vertical"
+        android:layout_below="@id/textViewTitle"
+        android:layout_marginBottom="32dp">
+    </LinearLayout>
+
+    <!-- Buttons Container -->
+    <LinearLayout
+        android:id="@+id/buttonContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+        <!-- Button: See Videos -->
+        <Button
+            android:id="@+id/buttonSeeVideos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/see_videos"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Button: Go Back -->
+        <Button
+            android:id="@+id/buttonBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/go_back"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+</RelativeLayout>

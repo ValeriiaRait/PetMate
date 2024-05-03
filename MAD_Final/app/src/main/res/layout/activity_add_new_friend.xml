@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pastelBackground">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_info_about_your_pet"
+                android:textSize="24sp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="32dp"/>
+
+            <!-- EditText for pet name -->
+            <EditText
+                android:id="@+id/editTextPetName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/pet_name_hint"/>
+
+            <!-- EditText for pet species -->
+            <EditText
+                android:id="@+id/editTextPetSpecies"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/pet_species_hint"/>
+
+            <!-- EditText for pet age -->
+            <EditText
+                android:id="@+id/editTextPetAge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="@string/pet_age_hint" />
+
+            <!-- EditText for pet hobbies -->
+            <EditText
+                android:id="@+id/editTextPetHobbies"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/pet_hobbies_hint" />
+
+            <!-- EditText for pet favorite toys -->
+            <EditText
+                android:id="@+id/editTextPetToys"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/pet_favorite_toys_hint" />
+
+            <!-- EditText for pet favorite food -->
+            <EditText
+                android:id="@+id/editTextPetFood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/pet_favorite_food_hint" />
+
+            <!-- EditText for pet allergies -->
+            <EditText
+                android:id="@+id/editTextPetAllergies"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/pet_allergies_hint" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/buttonContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_alignParentBottom="true">
+
+        <!-- Button: Save Pet Info -->
+        <Button
+            android:id="@+id/buttonSavePet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save_pet_info"
+            android:layout_margin="8dp"/>
+
+        <!-- Button: Go Back -->
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/go_back"
+            android:layout_margin="8dp" />
+
+    </LinearLayout>
+</RelativeLayout>
